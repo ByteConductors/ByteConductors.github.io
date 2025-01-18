@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import NavHeader from "./components/nav/NavHeader.vue";
 </script>
 
 <template>
-  <h1>ByteConductors</h1>
+  <NavHeader />
 </template>
 
 <style scoped>
