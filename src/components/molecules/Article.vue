@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import Headline from "../atoms/Headline.vue";
 
-const props = defineProps<{title:string, content:string}>()
+const props = defineProps<{title:string}>()
 </script>
 
 <template >
   <div class="flex w-full">
-    <div class="max-w-xl mx-auto">
-      <Headline :title=props.title />
+    <div class="w-full flex flex-col max-w-6xl mx-auto p-8 gap-4">
+      <Headline :title=props.title id="about"/>
       <slot />
     </div>
   </div>
