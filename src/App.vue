@@ -4,6 +4,9 @@ import NavHeader from "./components/nav/NavHeader.vue";
 
 <template>
   <NavHeader />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>

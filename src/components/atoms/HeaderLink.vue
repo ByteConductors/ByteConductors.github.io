@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <a class="ml-2 font-semibold" :href=props.link>{{props.text}}</a>
+  <a class="ml-2 font-semibold text-zinc-50" :href=props.link>{{props.text}}</a>
 </template>
 
 <style scoped>
