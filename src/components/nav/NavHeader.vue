@@ -3,7 +3,7 @@ import HeaderLink from "../atoms/HeaderLink.vue";
 </script>
 
 <template>
-  <div class="w-full fixed top-0 left-0 bg-amber-500 p-4 ">
+  <div class="w-full h-14 fixed top-0 left-0 bg-amber-500 p-4 ">
     <div class="mx-auto w-full max-w-5xl flex justify-between">
       <div>
         <HeaderLink link="/" text="ByteConductors"/>
