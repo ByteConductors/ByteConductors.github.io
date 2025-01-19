@@ -3,7 +3,9 @@
 </script>
 
 <template>
-
+  <p>
+    fguohbnaiosbngs
+  </p>
 </template>
 
 <style scoped>
